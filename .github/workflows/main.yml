@@ -16,6 +16,8 @@ jobs:
 
       - name: Commit step - 23f3000511@ds.study.iitm.ac.in
         run: |
+         git clone https://github.com/23f3000511/Ga4question8.git
+          cd Ga4question8
           echo "TDSFU Daily run: $(date -u) TDSFU" >> daily-log.txt
 
       - name: Git Commit and Push
